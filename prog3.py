@@ -32,7 +32,7 @@ while notCaptured:
             if(len(smiles)==1):
                 seq+=1
                 print(seq)
-                if(seq==10):
+                if(seq==5):
                     cv2.imwrite('myselfie.png',img)
                     notCaptured=False
                     break
